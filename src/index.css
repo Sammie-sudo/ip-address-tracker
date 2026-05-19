@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.header-bg {
+  background-image: url('./assets/pattern-bg-mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .header-bg {
+    background-image: url('./assets/pattern-bg-desktop.png');
+  }
+}
