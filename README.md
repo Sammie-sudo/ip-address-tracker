@@ -34,27 +34,27 @@ Ensure you have [Node.js](https://nodejs.org/) installed (v18 or higher recommen
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Sammie-sudo/ip-address-tracker.git
    cd ip-address-tracker
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
+
    Open [http://localhost:5173/](http://localhost:5173/) in your browser to view the application.
 
 4. Build for production:
    ```bash
    npm run build
    ```
-
-## Configuration
-
-The app uses the IPify Geolocation API. The key is managed inside the service layer `src/services/ipApi.ts` for standard requests. If you want to use your own key, configure it there.
